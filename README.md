@@ -1,6 +1,6 @@
 # Jackson Holmes
 
-I build free, hands-on training modules that teach people to **build secure AI systems**, starting from the database up.
+I'm passionate about making AI **secure** and **accessible** for learners. I build free, hands-on training modules that teach anyone to **build secure AI systems**, starting from the database up.
 
 Every module runs on your own laptop with Docker, assumes no prior experience, and explains **what** to do, **why** it matters, and **how to prove** each security control actually works.
 
