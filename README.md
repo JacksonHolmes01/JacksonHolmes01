@@ -6,11 +6,15 @@ Every module runs on your own laptop with Docker, assumes no prior experience, a
 
 ---
 
-## Newest: Securing AI Agents
+## Newest: securing the AI layer
 
-AI agents do not just answer, they **act**, through tools, and that turns a prompt injection from a bad answer into a real action. This series builds an agent, attacks it, and secures it, all on your laptop.
+An AI system is more than its database. Three new labs take on the AI layer itself: the **agent** that acts, the **tools** it connects to, and the **data** it retrieves. Each one follows the same arc, build it, attack it with evidence (a leak counts only if something real left the system), then add defenses in measured layers until the attacks hit zero. All deterministic, all on your laptop.
 
-**[Secure AI Agents](https://github.com/JacksonHolmes01/Training-Module-Secure-AI-Agents)** — build an agent with six tools, then **attack** it (data exfiltration, tool poisoning, path traversal), **defend** it in measured layers, **contain** it (a no-network code sandbox, least-privilege containers, egress control), and **monitor** it (a security log, detection rules, a scored red-team campaign). Email goes to a fake inbox; the "internet" is a container that only logs requests. Nothing leaves your machine.
+**[Secure AI Agents](https://github.com/JacksonHolmes01/Training-Module-Secure-AI-Agents)**: the **actions** an agent takes. Build an agent with six tools, then attack it (data exfiltration, tool poisoning, path traversal), defend it, contain it (a no-network code sandbox, least-privilege containers, egress control), and monitor it (a security log, detection rules, a scored red-team campaign). Email goes to a fake inbox; the "internet" is a container that only logs requests.
+
+**[Secure an MCP Server](https://github.com/JacksonHolmes01/Training-Module-Secure-MCP-Server)**: the **tools** a model connects to. A small Model Context Protocol server, attacked six ways (no auth, secret theft, path traversal, confused deputy, tool abuse, poisoned documents) and taken from 6 to 0 with five protections. Plain JSON-RPC, one container, no model needed.
+
+**[Permission-Aware RAG](https://github.com/JacksonHolmes01/Training-Module-Permission-Aware-RAG)**: the **data** an AI retrieves. A RAG chatbot over Postgres + pgvector that leaks six ways (cross-user retrieval, identity spoofing, an endpoint that forgot its filter, a poisoned document), closed to zero with auth, ACL scoping, token-derived identity, row-level security, and sanitizing.
 
 ---
 
