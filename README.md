@@ -6,6 +6,14 @@ Every module runs on your own laptop with Docker, assumes no prior experience, a
 
 ---
 
+## Newest: Securing AI Agents
+
+AI agents do not just answer, they **act**, through tools, and that turns a prompt injection from a bad answer into a real action. This series builds an agent, attacks it, and secures it, all on your laptop.
+
+**[Secure AI Agents](https://github.com/JacksonHolmes01/Training-Module-Secure-AI-Agents)** — build an agent with six tools, then **attack** it (data exfiltration, tool poisoning, path traversal), **defend** it in measured layers, **contain** it (a no-network code sandbox, least-privilege containers, egress control), and **monitor** it (a security log, detection rules, a scored red-team campaign). Email goes to a fake inbox; the "internet" is a container that only logs requests. Nothing leaves your machine.
+
+---
+
 ## Secure AI curriculum
 
 Pick one vector database and follow its series in order. Each series ends with the same skills: a locked-down RAG chatbot, measured defenses against prompt injection, hardened containers, and a red-team exercise against your own system.
